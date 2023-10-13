@@ -26,6 +26,7 @@ h2 {
     font-size: 36px;
     line-height: 1.1;
     text-transform: capitalize;
+    letter-spacing: 0.02em
     color: #2E2F42; 
 }
 
@@ -33,7 +34,7 @@ h2 {
 
 /* ===============logotype======== */
 .logotype {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
@@ -82,15 +83,21 @@ h2 {
 .main-title {
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     color: #ffffff;
 }
 
 .order-button {
+    font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     background-color: #4D5AE5;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
 }
 /* ===============/Hero section======== */
 
@@ -103,6 +110,7 @@ h2 {
     line-height:1.2;
     color: #2E2F42;
 }
+
 
 /* ===============/BENEFITS======== */
 
@@ -119,10 +127,19 @@ h2 {
 }
 
 .logo-studio {
-    color: #F4F4FD;
+    color:#f4f4fd;
 }
 
 .copiright {
-    color: #F4F4FD;
+    color: #f4f4fd
+}
+.logotype-footer {
+    
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 /* ============/FOOTER=========== */
