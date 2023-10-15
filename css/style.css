@@ -86,8 +86,8 @@ h2 {
   color: #434455;
 }
 
-.link-contacts:hover,
-.link-contacts:focus {
+.contact-info:hover,
+.contact-info:focus {
     color: #404bbf;
 }
 
