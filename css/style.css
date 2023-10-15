@@ -70,13 +70,13 @@ h2 {
     color: #2E2F42
 }
 
-.nav-list>li:hover {
+.nav-list>li>a:hover {
     color: #404bbf ;
 }
 
 
-.link-studio:active,
-.link-studio:hover {
+.link-studio>a:active,
+.link-studio>a:hover {
     color:  #404bbf;
     text-decoration: underline;
 }
