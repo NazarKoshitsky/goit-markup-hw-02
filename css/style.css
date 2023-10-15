@@ -70,23 +70,25 @@ h2 {
     color: #2E2F42
 }
 
-
-.nav-links>li:hover {
-    color: #9747FF;
+.nav-list>li:hover {
+    color: #404bbf ;
 }
 
-.link-contacts {
+
+.link-studio:active,
+.link-studio:hover {
+    color:  #404bbf;
+    text-decoration: underline;
+}
+
+.list-contacts {
     font-weight: 400;
     color: #434455;
 }
 
-.link-studio:active {
-    color: #9747FF;
-    text-decoration: underline;
-}
-
-.link-contacts>li:hover {
-    color: #9747FF;
+.list-contacts>li:hover,
+.list-contacts>li:active {
+    color:  #404bbf ;
 }
 
 
