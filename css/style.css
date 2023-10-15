@@ -47,9 +47,14 @@ h2 {
 .logo-studio-header {
     color: #2E2F42;
 }
-.logo-web {
-    
+
+.contacts {
+    font-style: normal;
 }
+.contacts:hover,
+.contacts:active {
+    color: #404bbf;
+} 
 
 .logotype:hover,
 .logotype:active {
@@ -75,7 +80,7 @@ h2 {
     color: #434455;
 }
 
-.studio:active {
+.link-studio:active {
     color: #9747FF;
     text-decoration: underline;
 }
@@ -88,7 +93,8 @@ h2 {
 /* ===============/Main header======== */
 
 /* ===============Hero section======== */
-.page-hero {
+
+.section-hero {
     background-color: #2E2F42;
 }
 
